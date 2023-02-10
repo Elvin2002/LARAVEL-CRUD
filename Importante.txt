@@ -1,0 +1,16 @@
+1. debes migrar la base de datos al servidor xampp o el que tengas antes de ejecutar el servidor
+** php artisan migrate  **
+
+2. debes crear una ruta para los imagenes 
+** php artisan storage:link **
+
+genial puedes ver el proyecto
+
+vercion de laravel 9.51.0
+vercion de php 8.1.10
+boostrap no usado 
+
+
+
+
+

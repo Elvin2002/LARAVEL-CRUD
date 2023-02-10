@@ -1,0 +1,113 @@
+body{
+    background-color: #ACBB78      ;
+}
+.nav{
+    width: 100%;
+    margin: 20px auto;
+    border: 1px solid #cccc;
+    border-radius: 25px;
+    background-color: #536976;  
+    text-align: center; 
+    
+}
+
+.nav ul{
+
+    list-style: none;
+    margin: 5;
+    padding: 5;
+    position: relative;
+    color: #cccc;
+}
+.nav ul li {    
+    display: inline-block;
+    position: relative;
+    width: 200px;
+}
+
+.nav a {
+
+    color: #cccc;
+    display: block;
+    font-size: 16px;
+    padding: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+
+.nav ul ul ul {
+    left: 200px;
+    top: 0;
+}
+.nav img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.nav ul li:hover{
+    border-top: 2px solid white;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 5%;
+}
+th , td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #ddd;
+}
+
+.butom{
+    background-color: aqua;
+}
+
+.canselar{
+
+    margin-top: 40px;
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color:  white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.canselar  {
+    text-decoration: none;  
+}
+.canselar:hover {
+    background-color: green;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 30px;
+}
+
+.editar{
+    width: 20%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color:  white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    padding: auto;
+}
+a{
+    text-decoration: none;  
+}
+.editar:hover {
+    background-color: green;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 30px;
+}
